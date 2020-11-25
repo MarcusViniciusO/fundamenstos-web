@@ -4,33 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <ul>
+<body bgcolor="#8245BF">
+    <ul class="center" id="menu">
         <li><a href="index.html">Home</a></li>
+        <li><a href="sobremim.html">Me conheça</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <h1 class="center ft-cor">Entre em contato comigo</h1>
 
-    <H2>Endereço:</H2>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label class="ft-cor" for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label class="ft-cor" for="email">E-mail:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label class="ft-cor" for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button class="button" style="vertical-align:middle"><span>Enviar </span></button>
+            </form>
+        </div>
 
-    <p>Terminal Grajau</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.296208067236!2d-46.69928133501899!3d-23.736814384596062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f10d7f11281%3A0x99c397d66a175b90!2zRXN0YcOnw6NvIEdyYWphw7o!5e0!3m2!1spt-BR!2sbr!4v1605904611556!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="ml-50">
+
+                <p class="ft-cor">Terminal Grajau</p>
+                <p class="ft-cor">São Paulo - SP</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.296208067236!2d-46.69928133501899!3d-23.736814384596062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f10d7f11281%3A0x99c397d66a175b90!2zRXN0YcOnw6NvIEdyYWphw7o!5e0!3m2!1spt-BR!2sbr!4v1605904611556!5m2!1spt-BR!2sbr" width="450" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+           <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+        </div>
+       <p class="center">
+       Todos os direitos reservados: Marcus Vinicius &copy;
+       </p> 
+    </footer>
+    
 </body>
 </html>
