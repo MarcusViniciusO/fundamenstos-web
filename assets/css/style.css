@@ -2,14 +2,23 @@
 .center{
     text-align: center;
 }
-.justify{
-    text-align: justify;
-}
+
 .container {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
+}
+.ajust-img{
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+}
+
+/*Estilos da página sobremim.html*/
+
+.justify{
+    text-align: justify;
 }
 
 #menu li{
